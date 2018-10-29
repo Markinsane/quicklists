@@ -1,0 +1,34 @@
+ion-item-sliding {
+    margin: 5px;
+}
+
+ion-checkbox {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: blue;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    border: none !important;
+}
+
+ion-item-content {
+    border: none !important;
+}
+
+ion-checkbox {
+    border-bottom: none !important;
+}
+
+ion-content {
+    --ion-background-color: #f4f5f8 !important;
+}
+
+
+ng-untouched ng-pristine ng-valid ion-untouched ion-pristine ion-valid in-item interactive hydrated{
+    background-color: green !important;
+}
+
+.hide {
+  display: none;
+}
